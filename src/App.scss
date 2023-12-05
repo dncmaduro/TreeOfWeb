@@ -1,0 +1,30 @@
+.App {
+  background-color: rgb(189, 188, 186);
+  height: 960px;
+
+  input {
+    border-radius: 4px;
+    outline: none;
+    border: 1px solid #888;
+  }
+
+  .app-box {
+    display: flex;
+    padding: 10px;
+    height: 100%;
+    gap: 20px;
+    background-color: rgb(235, 233, 230);
+
+    .app-page {
+      flex: 5;
+    }
+
+    .app-sidebar {
+      flex: 1;
+    }
+  }
+
+  button {
+    cursor: pointer;
+  }
+}
