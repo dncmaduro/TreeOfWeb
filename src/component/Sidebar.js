@@ -10,7 +10,6 @@ const Sidebar = () => {
             <div className='sidebar-box'>
                 <div className='sidebar-1'>
                     <img className='sidebar-logo' src={Logo}></img>
-                    <input className='sidebar-search' type='text' placeholder='Search by code'></input>
                     <Link to={'/'}>
                         <button className='sidebar-home sidebar-bottom'>
                             Home

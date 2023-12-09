@@ -1,0 +1,50 @@
+.movie-login {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+
+    .movie-login-title {
+        font-size: 30px;
+    }
+
+    .movie-login-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border: 2px solid #b8abab;
+        border-radius: 16px;
+        padding: 80px;
+        gap: 40px;
+
+        span {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 30px;
+
+            .movie-login-input {
+                padding: 10px 30px 10px 10px;
+            }
+
+            .movie-login-submit {
+                cursor: pointer;
+                padding: 10px 30px;
+                background-color: rgb(236, 184, 209);
+
+                &:hover {
+                    opacity: 0.7;
+                }
+            }
+        }
+    }
+}
